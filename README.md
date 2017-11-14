@@ -1,5 +1,9 @@
 ## docker-sonarqube-mysql
-sonarqube with mysql server as dock
+sonarqube with mysql server with docker
+
+- sonarqube server version 6.7
+
+- mysql server 5.7
 
 ## create mouunt directory 
 
