@@ -70,3 +70,8 @@ sonarqube_1  | 2017.11.14 10:07:54 INFO  app[][o.s.a.SchedulerImpl] Process[ce] 
 sonarqube_1  | 2017.11.14 10:07:54 INFO  app[][o.s.a.SchedulerImpl] SonarQube is up
 
 ```
+
+## stop and remove all docker containers
+```
+docker-compose down
+```
