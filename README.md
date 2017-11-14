@@ -12,7 +12,7 @@ sudo mkdir -p /opt/docker/sonarqube/app/logs
 sudo mkdir -p /opt/docker/sonarqube/mysql
 ```
 
-# create docker-compose.yml
+# create docker-compose.yml and save into /opt/docker/sonarqube
 ```
 
 version: '3'
@@ -29,7 +29,7 @@ services:
       - /opt/docker/sonarqube/mysql
 
   sonarqube:
-    image: sonarqube-docker
+    image: sopheamak/sonarqube-docker
     ports:
       - "9000:9000"
     volumes:
@@ -50,6 +50,7 @@ services:
 
 ## run docker-compose
 ```
+cd /opt/docker/sonarqube/
 docker-compose up
 ```
 
