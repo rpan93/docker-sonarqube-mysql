@@ -1,7 +1,13 @@
-## docker-sonarqube-mysql
-sonarqube with mysql server with docker. 
+## Install
 
 Make sure that your environment already installed docker and docker-compose
+
+- install Docker : [https://docs.docker.com/engine/installation/]
+
+- install Docker-Composer : [https://docs.docker.com/compose/install/#prerequisites]
+
+## docker-sonarqube-mysql
+sonarqube with mysql server with docker.
 
 - sonarqube server version 6.7
 
