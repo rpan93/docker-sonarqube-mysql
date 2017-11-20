@@ -81,3 +81,16 @@ sonarqube_1  | 2017.11.14 10:07:54 INFO  app[][o.s.a.SchedulerImpl] SonarQube is
 ```
 docker-compose down
 ```
+
+
+## Run sonarqube server with H2 database
+```
+ - install sonaqube with docker and run it as below
+
+docker pull sopheamak/my-docker-sonarqube
+docker run -d --name my-docker-sonarqube -p 9000:9000 -p 9092:9092 sopheamak/my-docker-sonarqube console
+
+go to browser :
+
+http://localhost:9090
+```
